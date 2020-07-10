@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+   
+
+    <title>SOS Tech</title>
+</head>
+<body>
+  <header role="banner">
+    <img src="//s3-us-west-2.amazonaws.com/s.cdpn.io/392/demo_tophat.png" width="64" height="auto" alt="scroll magic" />
+  </header>
+  
+  <div id="content-wrapper">
+  
+      <section id="pin" class="scroll-magic-section">
+          <h3 id="hlpin">Pinned Yo!</h3>
+  
+          <div id="wipe">
+              <div class="container">
+                  <h3>Wipe Uno TranslateY</h3>
+              </div>
+          </div>
+  
+          <div id="second-wipe">
+              <div class="container">
+                  <h3>Wipe Dos TranslateY</h3>
+              </div>
+          </div>
+  
+          <div id="slide">
+              <div class="container">
+                  <h3>Slide Bounce Brosicle</h3>
+                  <h3> ZOMG Colors!</h3>
+              </div>
+          </div>
+      
+      <div id="slide-dos">
+              <div class="container">
+                  <h3>Slide TranslateX</h3>
+              </div>
+          </div>
+  
+          <div id="unpin">
+              <div class="container">
+                  <h3>Unpinzd Dawg</h3>
+              </div>
+          </div>
+  
+      </section>
+  </div>
+
+
+  <!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.15.3/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyDLL2jPdqL_jmhmXgGoiZE9ZwCrbdbhMVc",
+    authDomain: "haroontrial.firebaseapp.com",
+    databaseURL: "https://haroontrial.firebaseio.com",
+    projectId: "haroontrial",
+    storageBucket: "haroontrial.appspot.com",
+    messagingSenderId: "748053171926",
+    appId: "1:748053171926:web:22389609d349fd0bb30377"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+</script>
+    <script src="main.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.7/plugins/debug.addIndicators.min.js"></script>
+</body>
+</html>
